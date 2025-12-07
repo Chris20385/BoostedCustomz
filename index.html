@@ -8,11 +8,15 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body class="d-flex flex-column min-vh-100">
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
     <div class="container">
-      <a class="navbar-brand fw-bold text-danger" href="index.html">Boosted Customz</a>
+      <a class="navbar-brand fw-bold text-danger d-flex align-items-center" href="index.html">
+        <img src="logo.svg" width="32" class="me-2" alt="Boosted Customz Logo">
+        Boosted Customz
+      </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -29,58 +33,66 @@
   </nav>
 
   <section class="container-fluid p-0 m-0 text-center">
-  <img src="vehicles.png" class="banner-img img-fluid w-100 border-0 rounded-0" alt="Vehicle Collection">
-</section>
+    <img src="vehicles.png" class="banner-img img-fluid w-100 border-0 rounded-0" alt="Vehicle Collection">
+  </section>
 
-<section class="bg-dark py-5">
-  <div class="container text-center">
-    <h2 class="text-danger fw-bold mb-4">Best Sellers</h2>
+  <section class="bg-dark py-5">
+    <div class="container text-center">
+      <h2 class="text-danger fw-bold mb-4">Best Sellers</h2>
 
-    <div class="row g-4 justify-content-center">
-      <!-- Best Seller 1 -->
-      <div class="col-lg-4 col-md-6">
-        <div class="card h-100 shadow-sm bg-light">
-          <div class="ratio ratio-1x1">
-            <img src="f150silv.png" class="card-img-top object-fit-cover" alt="Best Seller 1">
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">BC Shirt</h5>
-            <p class="card-text">$30.00</p>
+      <div class="row g-4 justify-content-center">
+
+        <div class="col-lg-4 col-md-6">
+          <div class="card h-100 shadow-sm bg-light">
+            <div class="ratio ratio-1x1">
+              <img src="f150silv.png" class="card-img-top object-fit-cover" alt="Best Seller 1">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">BC Shirt</h5>
+              <p class="card-text">$30.00</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="col-lg-4 col-md-6">
-        <div class="card h-100 shadow-sm bg-light">
-          <div class="ratio ratio-1x1">
-            <img src="boostedf150.png" class="card-img-top object-fit-cover" alt="Best Seller 2">
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">BC Hoodie</h5>
-            <p class="card-text">$60.00</p>
+        <div class="col-lg-4 col-md-6">
+          <div class="card h-100 shadow-sm bg-light">
+            <div class="ratio ratio-1x1">
+              <img src="boostedf150.png" class="card-img-top object-fit-cover" alt="Best Seller 2">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">BC Hoodie</h5>
+              <p class="card-text">$60.00</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="col-lg-4 col-md-6">
-        <div class="card h-100 shadow-sm bg-light">
-          <div class="ratio ratio-1x1">
-            <img src="silv.png" class="card-img-top object-fit-cover" alt="Best Seller 3">
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">BC Shirt</h5>
-            <p class="card-text">$30.00</p>
+        <div class="col-lg-4 col-md-6">
+          <div class="card h-100 shadow-sm bg-light">
+            <div class="ratio ratio-1x1">
+              <img src="silv.png" class="card-img-top object-fit-cover" alt="Best Seller 3">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">BC Shirt</h5>
+              <p class="card-text">$30.00</p>
+            </div>
           </div>
         </div>
+
       </div>
     </div>
-  </div>
-</section>
+  </section>
+
+  <section class="container text-center my-5">
+    <h3 class="text-danger mb-3">Join Our Mailing List</h3>
+    <input type="email" id="emailJoin" class="form-control w-50 mx-auto" placeholder="Enter your email">
+    <button class="btn btn-danger mt-3" onclick="joinMailingList()">Join Now</button>
+  </section>
 
   <footer class="bg-dark text-white text-center py-3 mt-auto">
     <p class="mb-0">&copy; 2025 Boosted Customz. All Rights Reserved.</p>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
