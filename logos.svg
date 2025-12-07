@@ -1,0 +1,15 @@
+<svg width="60" height="60" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="metal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d4d4d4"/>
+      <stop offset="50%" stop-color="#b3b3b3"/>
+      <stop offset="100%" stop-color="#8c8c8c"/>
+    </linearGradient>
+  </defs>
+
+  <path fill="url(#metal)" stroke="#555" stroke-width="2"
+        d="M52 6c-3-3-9-1-12 2-2 2-3 5-3 8l-20 20c-3 0-6 1-8 3-4 4-4 10 0 14s10 4 14 0c2-2 3-5 3-8l20-20c3 0 6-1 8-3 3-3 5-9 2-12l-5 5-4-4 5-5z"/>
+
+  <!-- handle bolt -->
+  <circle cx="15" cy="45" r="4" fill="#666" stroke="#333" stroke-width="1.5"/>
+</svg>
